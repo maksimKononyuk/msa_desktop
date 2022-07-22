@@ -7,7 +7,9 @@ import * as SplashScreen from 'expo-splash-screen'
 import * as Font from 'expo-font'
 import * as Updates from 'expo-updates'
 import axios from 'axios'
+
 import authIcon from '../assets/images/auth.png'
+import passwordVisibleIcon from '../assets/icons/passwordVisible.png'
 
 import styles from '../styles/Styles'
 
@@ -132,7 +134,7 @@ function Auth({ navigation }) {
           >
             <Image
               style={{ width: '100%', height: '100%' }}
-              source={require('../assets/icons/passwordVisible.png')}
+              source={passwordVisibleIcon}
             />
           </TouchableOpacity>
         </View>
