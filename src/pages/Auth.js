@@ -7,6 +7,7 @@ import * as SplashScreen from 'expo-splash-screen'
 import * as Font from 'expo-font'
 import * as Updates from 'expo-updates'
 import axios from 'axios'
+import authIcon from '../assets/images/auth.png'
 
 import styles from '../styles/Styles'
 
@@ -92,7 +93,7 @@ function Auth({ navigation }) {
       <View style={styles.authContainer}>
         <Image
           style={{ width: 230, height: 100, paddingBottom: 20 }}
-          source={require('../assets/images/auth.png')}
+          source={authIcon}
         />
         <TextInput
           label='Login'
